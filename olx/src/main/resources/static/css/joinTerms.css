@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+
+.joinTerms{
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.agree_box{
+	margin-left:34%;
+	display:inline;
+}
+
+.article_box{
+	width: 50%;
+	text-align: left;
+}
+
+.article{
+	height: 100px;
+	border: 0.5;
+	overflow-y: scroll;
+}
+
+label{
+	cursor:pointer;
+}
+
+
+/* 체크박스  */
+input[type='checkbox'] { /* input 감추기 */
+    position: absolute;
+    overflow:hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    opacity: 0;
+}
+
+input[type='checkbox']+label{
+	display: inline-block;
+	font-size: 16px;
+}
+
+input[type='checkbox'] + label:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin:-4px 5px 0 0;
+    background: url("../image/checkbox_01.png") no-repeat 0 0;
+    background-size: 20px;
+    vertical-align: top;
+    content:'';
+}
+
+input[type='checkbox']:checked + label:before {
+    background-image: url("../image/checkbox_02.png"); /* checked 이미지 적용 */
+}
+
+#joinCancle_btn{
+	height:40px;
+	font-size:15px;
+	border: solid 1px #dadada;
+	border: none;
+	border-radius: 3px;
+}
+
+#joinTerms_btn{
+	height:40px;
+	font-size:15px;
+	background:coral;
+	color:white;
+	border: none;
+	border-radius: 3px;
+} 

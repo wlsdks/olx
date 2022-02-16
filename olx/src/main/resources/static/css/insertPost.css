@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+#smart_editor2 {
+	width: 1600px;
+	height: 1400px;
+}
+
+.container{
+	float:left;
+	border: 1px solid #f0f0f0;
+	width:910px;
+	height:850px;
+}
+
+.container2{
+	margin-top:30px;
+	margin-left:50px;
+}
+
+#postMain{
+	margin: 25px 48px;
+}
+
+#inner1{
+	width:100%;
+	height:80px;
+	border: 1px solid #f0f0f0;
+	background-color:#FAFAFA;
+}
+
+#postContent{
+	width: 800px;
+	height: 400px;
+}
+
+.postWrite{
+  width:74.9%;
+  height:100px;
+  background-color: white;
+  
+}
+
+.form-control1{
+	margin: 5px auto;
+	width:90%;
+	height:35px;
+}
+
+.form-control2{
+	margin: 5px auto;
+	width:5%;
+	height:35px;
+	margin-right:30px;
+}
+
+.form-control3{
+	margin: 5px auto;
+	width:15%;
+	height:35px;
+}
+
+#postAside{
+	margin-left:19%;
+	width:15%;
+    height:900px;
+	border: 1px solid #f0f0f0;
+	float:left;
+	background-color: #F2F2F2;
+}
+
+#postTitle{
+	border-right:0px;
+	border-top:0px;
+	border-left:0px;
+	border-bottom:1px solid black;
+}
+
+input[name=postTitle]::placeholder {
+  color: #a00;
+  font-size: 1.7em;
+}
+
+#memNo{
+	border-right:0px;
+	border-top:0px;
+	border-left:0px;
+	border-bottom:0px;
+}
+
+.postComplete1{
+	width:80px;
+	height:50px;
+	border: 1px solid #d9dddf;
+	background-color: white;
+}
+
+.postComplete2{
+	margin-left:10px;
+	width:80px;
+	height:50px;
+	border: 1px solid #d9dddf;
+	background-color: white;
+}
+
+.postComplete1:hover{
+  box-shadow: 1px 1px 1px 1px rgba(25, 42, 70, 0.1);
+  transform: translate(0, -5px);
+}
+
+.postComplete2:hover{
+  box-shadow: 1px 1px 1px 1px rgba(25, 42, 70, 0.1);
+  transform: translate(0, -5px);
+}  
+
+#hrhr{
+	border: 1px solid #f0f0f0;
+	width:93.5%;
+}
+
+#postImg{
+	margin-top: 40px;
+	margin-left:75px;
+}
+
+#loginMenu{
+	text-align:center;
+}

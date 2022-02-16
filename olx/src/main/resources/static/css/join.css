@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+
+#content{
+	display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#form_box{
+	margin-left:34%;
+	text-align: left;
+}
+
+.box {
+    display: block;
+    width: 50%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    border-radius: 3px;
+    margin: 12px 0;
+}
+
+.textBox {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+
+}
+
+.hp{
+	width:16%;
+	height: 51px;
+	font-size:15px;
+	border: solid 1px #dadada;
+	border-radius: 3px;
+}
+
+.address{
+	display: block;
+    position: relative;
+    width: 50%;
+    height: 51px;
+    background: #fff;
+    font-size: 15px;
+    border: solid 1px #dadada;
+    border-radius: 3px;
+}
+
+#submit{
+	width:50%;
+	height:40px;
+	font-size:15px;
+	background: #A4A4A4;
+	color:white;
+	margin-top:20px;
+	border: none;
+	border-radius: 25px;
+}
+
+#submit:hover{
+	box-shadow: 1px 1px 1px 1px rgba(25, 42, 70, 0.1);
+    transform: translate(0, -1px);
+    background:coral;
+}
+
+#idCheck{
+	width:110px;
+	height:30px;
+	border: 1px solid black;
+	background-color: white;
+	margin-bottom:5px;
+}
+
+#idCheck:hover{
+	box-shadow: 1px 1px 1px 1px rgba(25, 42, 70, 0.1);
+    transform: translate(0, -1px);
+    background: #A4A4A4;
+}
+
+#emailCheck{
+	width:110px;
+	height:30px;
+	border: 1px solid black;
+	background-color: white;
+	margin-bottom:5px;
+}
+
+#emailCheck:hover{
+    box-shadow: 1px 1px 1px 1px rgba(25, 42, 70, 0.1);
+    transform: translate(0, -1px);
+    background: #A4A4A4;
+}
+
+#errorId{
+	color:red;
+	display:none;
+}
+#errorId2{
+	color:red;
+	display:none;
+}
+#errorPwd{
+	color:red;
+	display:none;
+}
+#errorPwdCheck{
+	color:red;
+	display:none;
+}
+#errorName{
+	color:red;
+	display:none;
+}
+#errorEmail1{
+	color:red;
+	display:none;
+}
+#errorEmail2{
+	color:red;
+	display:none;
+}
+#errorAddress{
+	color:red;
+	display:none;
+}
+#errorHp{
+	color:red;
+	display:none;
+} 

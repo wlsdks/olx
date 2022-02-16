@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+#nameDiv{
+	
+	margin-left:35%;
+	width: 600px;
+	height:50px;
+}
+
+#pwdSearchDiv{
+	border: 1px solid black;
+	margin-left:35%;
+	width: 600px;
+	height:350px;
+}
+
+#pwdSearchForm{
+	margin: 30px 130px;
+}
+
+.name_box{
+	width:400px;
+	display: flex;
+	margin-top:5px;
+}
+
+#searchFooter{
+	margin-left:210px;
+}
+
+#firstInformation{
+	margin-top: 20px;
+	margin-left:130px;
+}
+
+#memId{
+	width:250px;
+	height: 25px;
+}
+
+#memEmail{
+	width:250px;
+	height: 25px;
+}
+
+.submit_btn{
+	margin-left:130px;
+}
+
+#pwd_btn{
+	width:90px;
+	height: 35px;
+	
+}
+
+#searchResultBox{
+	text-align:center;
+	font-style: green;
+}
